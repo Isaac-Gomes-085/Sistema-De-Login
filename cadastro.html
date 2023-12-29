@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area de cadrastro</title>
+    <style>
+        body{
+            text-align: justify;
+            color: rgb(255, 255, 255);
+            background-color: rgb(35, 34, 34);
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+        main > form >label{
+            text-align: justify;
+            text-decoration: solid;
+            font-size: large;
+            font-weight: bold;
+        }
+        main >form{
+            text-align: center;
+            background-color: rgba(225, 224, 224, 0.429);
+            border-radius: 30px;
+            box-shadow: 8px 8px 15px #4d4d4dce;
+            width: 800px;
+            padding: 25px;
+            margin: auto;
+        }
+        header{
+            text-align: center;
+        }
+        main >form >input{
+            text-align: justify;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <main>
+        <form action="Site.html" method="get">
+            <label>Nome completo: </label>
+            <input type="text" name="Nome" placeholder="Nome completo" required>
+
+            <Label>Data de nascimento: </Label>
+            <input type="date" name="Data de nascimento" placeholder="31/01/2003" required>
+            <br>
+            <select name="sexualidade" required style="text-align: left; border-radius: 10px; padding: 5px; margin: 5px; font-weight: bold;">
+                <option disabled selected value="Sexualidade">Sexualidade</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Transgênero">Transgênero</option>
+                <option value="Gênero neutro">Gênero neutro</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <Label>Tipo do Documento</Label>
+            <select name="sexualidade" required style="text-align: left; border-radius: 10px; padding: 5px; margin: 5px; font-weight: bold;">
+                <option value="CPF">CPF</option>
+                <option value="RG">RG</option>
+                <option value="CNH">CNH</option>
+                <option value="CT">CT</option>
+            </select>
+            <Label>Documento: </Label>
+            <input type="text" name="Documento" placeholder="Número do documento" aria-required="false">
+            <br>
+            <label>E-mail: </label>
+            <input type="email" name="E-mail" placeholder="Digite seu E-mail" required>
+
+            <Label>Confirmar E-mail:</Label>
+            <input type="email" name="confirma email" required>
+
+            <br>
+            <Label>Senha: </Label>
+            <input type="password" name="Senha" placeholder="Digite sua senha" required>
+
+            <Label>Confirmar Senha:</Label>
+            <input type="password" name="Confirma senha" required>
+            
+            <br>
+            <label>Celular(com DDD): </label>
+            <input type="tel" name="telefone" placeholder="Número de celular" required>
+            <Label>Endereço: </Label>
+            <input type="text" name="Endereço" placeholder="Cidade, Bairro, Rua">
+
+
+
+            <br>
+            <input type="submit" value="Cadrastrar-se"
+            style="background-color: darkgray; padding: 5px; margin: auto; font-size: medium; border-radius: 10px; margin-top: 15px; font-style: initial; font-weight: bold;" >
+        </form>
+    </main>
+</body>
+</html>

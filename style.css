@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.espaco{
+    height: 130px;
+    margin: 2px;
+    padding: 1px;
+}
+.reset{
+    text-align: justify;
+    border-color: rgba(0, 0, 0, 0.681);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+/*.E-mail .E-mail_label{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+}
+
+.E-mail .E-mail_label::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.E-mail .E-mail_label:focus ~ .E-mail_label::before, .E-mail:valid ~ .E-mail_label::before{
+    transform: scaleX(1);
+}
+
+.E-mail{
+    height: 40px;
+    width: 200px;
+    position: relative;
+}
+
+.E-mail input{
+    height: 100%;
+    width: 100%;
+    inline: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+}
+
+.E-mail input:focus ~ label,
+.E-mail input:valid ~ label{
+    transform: translate(-20px);
+    font-size: 15px;
+    bottom: 15px;
+}
+
+.E-mail label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #666;
+    transition: all .3s ease;
+}*/
+.E-mail{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.68);
+    padding: 5px;
+    margin: 5px;
+    
+}
+.senha{
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-color: rgba(0, 0, 0, 0.68);
+    padding: 5px;
+    margin: 5px;
+}
+body{
+    background-image: linear-gradient(to right,#FAA2D9,#FAEDD4);
+    display:solid;
+}
+/*(to right,#FAA2D9,#FAEDD4)*/
+main{
+    text-align: center;
+    background-color:rgb(222, 232, 247) ;
+    border-radius: 50%;
+    box-shadow: 8px 8px 30px #5d5d5d57;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+}
+h1{
+    font-size: 2.6em;
+    text-align: center;
+    color: #88B8FA;
+    text-shadow: 1px 1px 2px #4d4d4dce;
+    margin-top: 5px;
+}
+h2{
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #4d4d4da3;
+}
+p{
+    /*
+    text-indent é para da um espaçamento no começo do paragrafo!
+    */
+    font-size: 1.2em;
+    text-align:justify;
+    text-indent: 25px;
+}
+main > form> label{
+    text-align:inherit;
+    font-family: 'Heebo';
+    font-size: 20px;
+    font-weight:500;
+    margin: 5px;
+
+}
+

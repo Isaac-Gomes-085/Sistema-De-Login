@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando um site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        .botao{
+            text-align: center;
+            background-color:rgb(255, 255, 255);
+            height: 30px;
+            width: 80px;
+            border-radius: 10px;
+            border-color: rgba(0, 0, 0, 0.813);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            box-shadow: 1px 1px 2px #ff040494;
+            padding: 3px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        #cadastra{
+            background-color:rgb(255, 255, 255);
+            text-align: center;
+            height: 30px;
+            border-color: rgba(0, 0, 0, 0.813);
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            box-shadow: 1px 1px 2px #332f2f94;
+            padding: 3px;
+            margin:0;
+        }
+        #semconta{
+            background-color: aliceblue;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 15px;
+            
+        }
+        #cadastra:hover{
+            background-color: rgb(0, 255, 42);
+            cursor: pointer;
+        }
+        ul{
+            color: #8E8E8E;
+        }
+        footer ul a{
+            display: inline;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 12px;
+            color: rgb(142, 142, 142);
+            cursor: pointer;
+            direction: ltr;
+            height: auto;
+            width: auto;
+            line-height: 16px;
+            text-decoration-thickness: auto;
+            text-size-adjust: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="espaco">
+
+    </div>
+    <header>
+
+    </header>
+    <main>
+        <h1>Fazer Login</h1>
+
+        <form action="https://www.instagram.com/" method="get">
+            
+            <input type="email" name="E-mail" placeholder="Digite seu E-mail" class="E-mail" required >
+            <!--<label class="E-mail_label">E-mail</label>-->
+            <br>
+
+            <input type="password" placeholder="Digite sua senha" class="senha" required>
+            <br>
+            <label>Salvar</label>
+            <input type="checkbox" name="Salva">
+
+            <input type="reset" value="Limpa" class="reset">
+            <br>
+            <div>
+               <input type="submit" value="Entrar" class="botao">
+            </div>
+            
+        </form>
+        <form action="cadastro.html" method="get" id="semconta">
+            <Label>Não tem conta?</Label>
+            <div>
+               <input type="submit" value="Cadastra-se" id="cadastra"> 
+            </div>
+            
+        </form>
+    </main>
+    <br>
+    <footer>
+        
+    </footer>
+    <script src="cadastro.js"></script>
+</body>
+</html>
